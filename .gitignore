@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Raw data (large CSVs from the Olist dataset - re-download instead of committing)
+data/*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
